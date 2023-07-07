@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: 30, 41, 59;
+    --background: 255, 255, 255;
+
+    --muted: 241, 245, 249;
+    --muted-text: 100, 116, 139;
+
+    --primary: 15, 23, 42;
+    --primary-text: 241, 245, 249;
+
+    --border: 226, 232, 240;
+  }
+
+  .dark {
+    --text: 241, 245, 249;
+    --background: 2, 6, 23;
+
+    --muted: 30, 41, 59;
+    --muted-text: 148, 163, 184;
+
+    --primary: 59, 130, 246;
+    --primary-text: 239, 246, 255;
+
+    --border: 30, 41, 59;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-text min-h-screen;
+  }
+}

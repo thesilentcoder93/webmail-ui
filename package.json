@@ -1,0 +1,27 @@
+{
+  "name": "webmail-ui",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "@nuxt/devtools": "0.6.7",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^20.4.0",
+    "nuxt": "^3.6.2",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0"
+  },
+  "dependencies": {
+    "@davestewart/nuxt-scrollbar": "^1.0.0",
+    "@morev/vue-transitions": "^2.3.6",
+    "@vueuse/nuxt": "^10.2.1",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.4.2"
+  }
+}
