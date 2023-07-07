@@ -1,5 +1,6 @@
 {
-  "name": "webmail-ui",
+  "name": "webmail-ui-app",
+  "description": "A revamp of the webmail client. Built with Nuxt 3 & TailwindCSS.",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

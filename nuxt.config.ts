@@ -2,7 +2,7 @@ const title = "Webmail UI";
 const shortTitle = title;
 const description = "A revamp of the webmail client. Built with Nuxt 3 & TailwindCSS.";
 const image = "/cover.png";
-const url = "https://webmail-ui.netlify.app/";
+const url = "https://webmail-ui-app.netlify.app/";
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
